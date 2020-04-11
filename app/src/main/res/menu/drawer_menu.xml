@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <!-- we will put all the menu items which want to put in the navbar here-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/firstItem"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/secondItem"
+            android:icon="@drawable/delivery"
+            android:title="Delivery" />
+
+        <item
+            android:id="@+id/thirdItem"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/fourthItem"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
